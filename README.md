@@ -9,3 +9,4 @@ Signal processing such as band-pass filtering, notch-filtering and envelope dete
 Aferwards a series of filtering stages come where a bandpass second order active RC filter is applied to suppress frequencies below and avobe 10 and 300 Hz respectively. Then the bias is subtracted and the signal is rectified. 
 The final stage consists on a low-pass filter with cutoff frequency of 1Hz to obtain the envelope of the signal. The schematic attached is the implementation of all these stages.
 
+![EGM sch](https://user-images.githubusercontent.com/67059763/121668370-84bb0700-caab-11eb-9eb0-0c6db804259a.PNG)
